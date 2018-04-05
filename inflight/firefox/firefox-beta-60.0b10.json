@@ -48,7 +48,8 @@
                     "resolved": false,
                     "who": "sfraser"
                 }
-            ]
+            ],
+            "revision": "8bf7d4cef4c3fd2048a56aae828cad0fbafc6ff3"
         }
     ],
     "preflight": {
