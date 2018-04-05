@@ -1,5 +1,5 @@
 {
-    "date": "2018-03-26",
+    "date": "2018-04-02",
     "inflight": [
         {
             "aborted": false,
@@ -7,7 +7,11 @@
             "graphids": [
                 [
                     "promote",
-                    "Z9-sHdy-RAGy5v631AUGhw"
+                    "JuaKX9tQQNiHi9HKDaGyOA"
+                ],
+                [
+                    "ship",
+                    "KchAOiNbSKCAXmlHB9XC4g"
                 ]
             ],
             "human_tasks": [
@@ -21,7 +25,7 @@
                     "alias": "pushapk",
                     "description": "run pushapk",
                     "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/mobile/howto.md",
-                    "resolved": false
+                    "resolved": true
                 }
             ],
             "issues": []
@@ -31,5 +35,5 @@
         "human_tasks": []
     },
     "product": "fennec",
-    "version": "60.0b7"
+    "version": "60.0b9"
 }

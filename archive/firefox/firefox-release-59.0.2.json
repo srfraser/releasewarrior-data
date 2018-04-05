@@ -61,22 +61,22 @@
                 {
                     "bug": "none",
                     "description": "release-updates-builder-firefox died trying to use the v4 submitter (buildbot)",
-                    "future_threat": true,
-                    "resolved": false,
+                    "future_threat": false,
+                    "resolved": true,
                     "who": "asasaki"
                 },
                 {
                     "bug": "none",
                     "description": "snap failed",
                     "future_threat": true,
-                    "resolved": false,
+                    "resolved": true,
                     "who": "asasaki"
                 },
                 {
                     "bug": "none",
                     "description": "repackages and partials continue to be flaky, requiring people to rerun tasks. if these were robust, we wouldn't have hit the double rerun conflict",
                     "future_threat": true,
-                    "resolved": false,
+                    "resolved": true,
                     "who": "asasaki"
                 }
             ]

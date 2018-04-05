@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "date": "2018-04-05",
-=======
-    "date": "2018-04-02",
->>>>>>> 3a537a5b35c1afa7dec55354a657d21c893e0613
+    "date": "2018-03-26",
     "inflight": [
         {
             "aborted": false,
@@ -11,23 +7,15 @@
             "graphids": [
                 [
                     "promote",
-<<<<<<< HEAD
-                    "234234234"
-=======
-                    "NXi31S58R6OEAtWdahm9LQ"
+                    "b_DM6gMsQK-XXNVPGsW9nw"
                 ],
                 [
                     "push",
-                    "CR3CKCvFRPCCt5U2X538Pg"
+                    "fszERbjdSma_76yYL2lbSg"
                 ],
                 [
                     "ship",
-                    "L3icgE9-QlebaWhBDuTbzQ"
-                ],
-                [
-                    "push2",
-                    "c5EiS45XRAa3_Kd7k64yFw"
->>>>>>> 3a537a5b35c1afa7dec55354a657d21c893e0613
+                    "KvX15oxeQIWxhRpUIwFwSg"
                 ]
             ],
             "human_tasks": [
@@ -41,57 +29,27 @@
                     "alias": "mirrors",
                     "description": "pushed to mirrors/releases",
                     "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#push-artifacts-to-releases-directory",
-<<<<<<< HEAD
-                    "resolved": false
-=======
                     "resolved": true
->>>>>>> 3a537a5b35c1afa7dec55354a657d21c893e0613
                 },
                 {
                     "alias": "ship",
                     "description": "schedule the release for shipping",
                     "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#ship-the-release",
-<<<<<<< HEAD
-                    "resolved": false
-=======
                     "resolved": true
->>>>>>> 3a537a5b35c1afa7dec55354a657d21c893e0613
                 },
                 {
                     "alias": "signoff",
                     "description": "signoff in Balrog",
                     "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#obtain-sign-offs-for-changes",
-<<<<<<< HEAD
-                    "resolved": false
-                }
-            ],
-            "issues": []
-=======
                     "resolved": true
                 }
             ],
-            "issues": [
-                {
-                    "bug": "1371378",
-                    "description": "hg bundle issue",
-                    "future_threat": true,
-                    "resolved": true,
-                    "who": "asasaki"
-                },
-                {
-                    "bug": "1451531",
-                    "description": "beetmover-cdns didn't push checksums",
-                    "future_threat": true,
-                    "resolved": true,
-                    "who": "asasaki"
-                }
-            ]
->>>>>>> 3a537a5b35c1afa7dec55354a657d21c893e0613
+            "issues": []
         }
     ],
     "preflight": {
         "human_tasks": []
     },
     "product": "firefox",
-    "version": "60.0b9"
+    "version": "60.0b7"
 }

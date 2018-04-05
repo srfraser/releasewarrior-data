@@ -1,5 +1,5 @@
 {
-    "date": "2018-03-26",
+    "date": "2018-03-29",
     "inflight": [
         {
             "aborted": false,
@@ -7,15 +7,15 @@
             "graphids": [
                 [
                     "promote",
-                    "b_DM6gMsQK-XXNVPGsW9nw"
+                    "BRus1231RWW-kU5eXWjhYg"
                 ],
                 [
                     "push",
-                    "fszERbjdSma_76yYL2lbSg"
+                    "WA7iF3fqQdizYxzxvRgoxQ"
                 ],
                 [
                     "ship",
-                    "KvX15oxeQIWxhRpUIwFwSg"
+                    "INwYGaoqQAKGhSX3idmWmQ"
                 ]
             ],
             "human_tasks": [
@@ -41,15 +41,23 @@
                     "alias": "signoff",
                     "description": "signoff in Balrog",
                     "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#obtain-sign-offs-for-changes",
-                    "resolved": false
+                    "resolved": true
                 }
             ],
-            "issues": []
+            "issues": [
+                {
+                    "bug": "1450075",
+                    "description": "partials and repackages continue to be flaky",
+                    "future_threat": true,
+                    "resolved": true,
+                    "who": "asasaki"
+                }
+            ]
         }
     ],
     "preflight": {
         "human_tasks": []
     },
     "product": "firefox",
-    "version": "60.0b7"
+    "version": "60.0b8"
 }
