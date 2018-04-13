@@ -5,11 +5,14 @@
 ## Preflight tasks (pre go-to-build)
 - none
 
-## Build 1  
-
+## Build 1 
 ### Graphs
 * [promote](https://tools.taskcluster.net/push-inspector/#/YAM42iDzQl2jduhU7Obbng) YAM42iDzQl2jduhU7Obbng
 * [push](https://tools.taskcluster.net/push-inspector/#/OA0voFjlR5KxcVlkIG0kSA) OA0voFjlR5KxcVlkIG0kSA
+```
+export PROMOTE_TASK_ID=YAM42iDzQl2jduhU7Obbng
+export PUSH_TASK_ID=OA0voFjlR5KxcVlkIG0kSA
+```
 
 
 #### Status
