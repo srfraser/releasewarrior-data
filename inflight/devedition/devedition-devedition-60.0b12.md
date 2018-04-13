@@ -1,6 +1,6 @@
-# firefox 60.0b10
+# devedition 60.0b12
 
-### Date of go-to-build: 2018-04-04
+### Date of go-to-build: 2018-04-12
 
 ## Preflight tasks (pre go-to-build)
 - none
@@ -8,8 +8,8 @@
 ## Build 1  
 
 ### Graphs
-* [promote](https://tools.taskcluster.net/push-inspector/#/HKNBTwAMT22-Tk9WQyZEVw) HKNBTwAMT22-Tk9WQyZEVw
-* [push](https://tools.taskcluster.net/push-inspector/#/GYT_nZNyQzGn7wjcwBTajw) GYT_nZNyQzGn7wjcwBTajw
+* [promote](https://tools.taskcluster.net/push-inspector/#/MwWsnqSrRbWqZIyt54DQnA) MwWsnqSrRbWqZIyt54DQnA
+* [push](https://tools.taskcluster.net/push-inspector/#/HIE47WUrQC2xgb9cUqmuaQ) HIE47WUrQC2xgb9cUqmuaQ
 
 
 #### Status
@@ -21,5 +21,5 @@
 ### Issues
 | Who                 | ID               | Bug                                                                 | Description                | Resolved                | Future Threat                |
 | ------------------- | ---------------- | ------------------------------------------------------------------- | -------------------------- | ----------------------- | ---------------------------- |
-| sfraser  | 1 | [bug 1451667](https://bugzil.la/1451667)        | release-snap-push-firefox task failed, but pushed the snap anyway | False | True |
+| none | | | | | |
 

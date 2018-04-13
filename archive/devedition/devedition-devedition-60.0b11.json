@@ -1,0 +1,70 @@
+{
+    "date": "2018-04-09",
+    "inflight": [
+        {
+            "aborted": false,
+            "buildnum": 1,
+            "graphids": [
+                [
+                    "promote",
+                    "QNBKwf7_R9S1bf_58jtjCg"
+                ],
+                [
+                    "push",
+                    "ANh7A9r1TKSdItBOBEs2kQ"
+                ],
+                [
+                    "ship",
+                    "UHk2QaGLTLCOTdbUS0XHhA"
+                ]
+            ],
+            "human_tasks": [
+                {
+                    "alias": "shipit",
+                    "description": "submit to Shipit",
+                    "docs": "https://wiki.mozilla.org/Release:Release_Automation_on_Mercurial:Starting_a_Release#Submit_to_Ship_It",
+                    "resolved": true
+                },
+                {
+                    "alias": "mirrors",
+                    "description": "pushed to mirrors/releases",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#push-artifacts-to-releases-directory",
+                    "resolved": true
+                },
+                {
+                    "alias": "ship",
+                    "description": "schedule the release for shipping",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#ship-the-release",
+                    "resolved": true
+                },
+                {
+                    "alias": "signoff",
+                    "description": "signoff in Balrog",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#obtain-sign-offs-for-changes",
+                    "resolved": true
+                }
+            ],
+            "issues": [
+                {
+                    "bug": "none",
+                    "description": "reran the wrong task trying to fix a weird cot verify issue!! had to then cancel/rerun downstream tasks that had already run/were running. may have worked; otherwise we need a build2",
+                    "future_threat": true,
+                    "resolved": true,
+                    "who": "asasaki"
+                },
+                {
+                    "bug": "none",
+                    "description": "source task was unscheduled - unknown reason. cancelled & reran. had to rerun beetmover-cdns; we should probably block the notify-promote task and the beetmover-cdns on beetmover-source",
+                    "future_threat": true,
+                    "resolved": true,
+                    "who": "asasaki"
+                }
+            ]
+        }
+    ],
+    "preflight": {
+        "human_tasks": []
+    },
+    "product": "devedition",
+    "version": "60.0b11"
+}

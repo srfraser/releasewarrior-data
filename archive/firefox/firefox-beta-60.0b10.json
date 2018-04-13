@@ -1,0 +1,64 @@
+{
+    "date": "2018-04-04",
+    "inflight": [
+        {
+            "aborted": false,
+            "buildnum": 1,
+            "graphids": [
+                [
+                    "promote",
+                    "HKNBTwAMT22-Tk9WQyZEVw"
+                ],
+                [
+                    "push",
+                    "GYT_nZNyQzGn7wjcwBTajw"
+                ],
+                [
+                    "ship",
+                    "eyoq1WXeQYqOqRinpGprFg"
+                ]
+            ],
+            "human_tasks": [
+                {
+                    "alias": "shipit",
+                    "description": "submit to Shipit",
+                    "docs": "https://wiki.mozilla.org/Release:Release_Automation_on_Mercurial:Starting_a_Release#Submit_to_Ship_It",
+                    "resolved": true
+                },
+                {
+                    "alias": "mirrors",
+                    "description": "pushed to mirrors/releases",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#push-artifacts-to-releases-directory",
+                    "resolved": true
+                },
+                {
+                    "alias": "ship",
+                    "description": "schedule the release for shipping",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#ship-the-release",
+                    "resolved": true
+                },
+                {
+                    "alias": "signoff",
+                    "description": "signoff in Balrog",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#obtain-sign-offs-for-changes",
+                    "resolved": true
+                }
+            ],
+            "issues": [
+                {
+                    "bug": "1451667",
+                    "description": "release-snap-push-firefox task failed, but pushed the snap anyway",
+                    "future_threat": true,
+                    "resolved": true,
+                    "who": "sfraser"
+                }
+            ],
+            "revision": "8bf7d4cef4c3fd2048a56aae828cad0fbafc6ff3"
+        }
+    ],
+    "preflight": {
+        "human_tasks": []
+    },
+    "product": "firefox",
+    "version": "60.0b10"
+}

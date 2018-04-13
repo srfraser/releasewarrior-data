@@ -1,6 +1,6 @@
-# devedition 60.0b10
+# firefox 60.0b12
 
-### Date of go-to-build: 2018-04-04
+### Date of go-to-build: 2018-04-12
 
 ## Preflight tasks (pre go-to-build)
 - none
@@ -8,8 +8,8 @@
 ## Build 1  
 
 ### Graphs
-* [promote](https://tools.taskcluster.net/push-inspector/#/LG3bqDLhSyOAcRiU1729aA) LG3bqDLhSyOAcRiU1729aA
-* [push](https://tools.taskcluster.net/push-inspector/#/YL4FmDNKTyyrZZX3emRtQg) YL4FmDNKTyyrZZX3emRtQg
+* [promote](https://tools.taskcluster.net/push-inspector/#/YAM42iDzQl2jduhU7Obbng) YAM42iDzQl2jduhU7Obbng
+* [push](https://tools.taskcluster.net/push-inspector/#/OA0voFjlR5KxcVlkIG0kSA) OA0voFjlR5KxcVlkIG0kSA
 
 
 #### Status
@@ -21,5 +21,5 @@
 ### Issues
 | Who                 | ID               | Bug                                                                 | Description                | Resolved                | Future Threat                |
 | ------------------- | ---------------- | ------------------------------------------------------------------- | -------------------------- | ----------------------- | ---------------------------- |
-| none | | | | | |
+| asasaki  | 1 | [bug 1453240](https://bugzil.la/1453240)        | langpack beetmover changes broke beetmover | False | True |
 

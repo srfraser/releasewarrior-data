@@ -1,5 +1,5 @@
 {
-    "date": "2018-04-04",
+    "date": "2018-04-12",
     "inflight": [
         {
             "aborted": false,
@@ -7,11 +7,11 @@
             "graphids": [
                 [
                     "promote",
-                    "HKNBTwAMT22-Tk9WQyZEVw"
+                    "MwWsnqSrRbWqZIyt54DQnA"
                 ],
                 [
                     "push",
-                    "GYT_nZNyQzGn7wjcwBTajw"
+                    "HIE47WUrQC2xgb9cUqmuaQ"
                 ]
             ],
             "human_tasks": [
@@ -40,21 +40,12 @@
                     "resolved": false
                 }
             ],
-            "issues": [
-                {
-                    "bug": "1451667",
-                    "description": "release-snap-push-firefox task failed, but pushed the snap anyway",
-                    "future_threat": true,
-                    "resolved": false,
-                    "who": "sfraser"
-                }
-            ],
-            "revision": "8bf7d4cef4c3fd2048a56aae828cad0fbafc6ff3"
+            "issues": []
         }
     ],
     "preflight": {
         "human_tasks": []
     },
-    "product": "firefox",
-    "version": "60.0b10"
+    "product": "devedition",
+    "version": "60.0b12"
 }
