@@ -1,5 +1,5 @@
 {
-    "date": "2018-04-12",
+    "date": "2018-04-16",
     "inflight": [
         {
             "aborted": false,
@@ -7,11 +7,15 @@
             "graphids": [
                 [
                     "promote",
-                    "YAM42iDzQl2jduhU7Obbng"
+                    "KwxIZu9kRVST5VIfgHqmsA"
                 ],
                 [
                     "push",
-                    "OA0voFjlR5KxcVlkIG0kSA"
+                    "OUA-QkZxTPCaDs7W_EaJTg"
+                ],
+                [
+                    "ship",
+                    "BRqfLzwpR6i3zO-k-JtWTA"
                 ]
             ],
             "human_tasks": [
@@ -31,29 +35,21 @@
                     "alias": "ship",
                     "description": "schedule the release for shipping",
                     "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#ship-the-release",
-                    "resolved": false
+                    "resolved": true
                 },
                 {
                     "alias": "signoff",
                     "description": "signoff in Balrog",
                     "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#obtain-sign-offs-for-changes",
-                    "resolved": false
+                    "resolved": true
                 }
             ],
-            "issues": [
-                {
-                    "bug": "1453240",
-                    "description": "langpack beetmover changes broke beetmover",
-                    "future_threat": true,
-                    "resolved": false,
-                    "who": "asasaki"
-                }
-            ]
+            "issues": []
         }
     ],
     "preflight": {
         "human_tasks": []
     },
-    "product": "firefox",
-    "version": "60.0b12"
+    "product": "devedition",
+    "version": "60.0b13"
 }

@@ -1,0 +1,55 @@
+{
+    "date": "2018-04-19",
+    "inflight": [
+        {
+            "aborted": false,
+            "buildnum": 1,
+            "graphids": [
+                [
+                    "promote",
+                    "C8WXEH1sQm-2JQ_-VncrmA"
+                ],
+                [
+                    "push",
+                    "GNLQrR6WSN6oQkmSInic-w"
+                ],
+                [
+                    "ship",
+                    "EvY7EVWYROGroBWDhqAF2g"
+                ]
+            ],
+            "human_tasks": [
+                {
+                    "alias": "shipit",
+                    "description": "submit to Shipit",
+                    "docs": "https://wiki.mozilla.org/Release:Release_Automation_on_Mercurial:Starting_a_Release#Submit_to_Ship_It",
+                    "resolved": true
+                },
+                {
+                    "alias": "mirrors",
+                    "description": "pushed to mirrors/releases",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#push-artifacts-to-releases-directory",
+                    "resolved": true
+                },
+                {
+                    "alias": "ship",
+                    "description": "schedule the release for shipping",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#ship-the-release",
+                    "resolved": true
+                },
+                {
+                    "alias": "signoff",
+                    "description": "signoff in Balrog",
+                    "docs": "https://github.com/mozilla-releng/releasewarrior-2.0/blob/master/docs/release-promotion/desktop/howto.md#obtain-sign-offs-for-changes",
+                    "resolved": true
+                }
+            ],
+            "issues": []
+        }
+    ],
+    "preflight": {
+        "human_tasks": []
+    },
+    "product": "devedition",
+    "version": "60.0b14"
+}
